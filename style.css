@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07081A;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.FullWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+}
+
+.navlist {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.navlist:hover {
+    color: #B968DE;
+}
+
+.user {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #9100D3;
+}
+/* start main first main div */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.hero p {
+    color: #C0C0C0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hero button {
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: 186px;
+    background-color: #9100D3;
+    color: #FFFFFF;
+}
+.hero div {
+    display: flex;
+    justify-content: center;
+}
+/* start main second main div */
+
+.companyicons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companybox {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.companybox span {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+/* start main third main div */
+.blogcards {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+.blogcardsbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.blogcardsbox p {
+    color: #C0C0C0;
+}
+
+.blogcardsbox h2 {
+    color: #FFFFFF;
+}
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+/* start footer */
+footer {
+    border-top: 1px solid #261C51;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlinks {
+    display: flex;
+    gap: 24px;
+}
+
+.footernav p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/* end dd */
